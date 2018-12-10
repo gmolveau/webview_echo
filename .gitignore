@@ -1,0 +1,15 @@
+# general
+**/*.env
+**/*.log
+.idea/
+**/.DS_Store
+.vscode/
+.grifter/
+
+# deps
+vendor/*/
+
+# project
+**/*.sqlite
+dist/
+!static/**/dist/
